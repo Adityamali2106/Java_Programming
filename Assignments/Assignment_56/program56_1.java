@@ -1,0 +1,33 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//    Program Name : program56_1
+//    Description  : Accept file name from user and open that File.
+//    Author Name  : Aditya Vijay Mali
+//    Date         : 26/01/2026
+//
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+import java.io.*;
+import java.util.*;
+
+class program56_1
+{
+	public static void main(String A[] )
+	{
+		String FileName;
+		Scanner sobj = new Scanner(System.in);
+
+		System.out.println("Enter the file Name: ");
+		FileName = sobj.nextLine();	
+
+		File obj = new File(FileName);
+
+		if (obj.exists()) {
+            System.out.println("File opened successfully.");
+        } else {
+            System.out.println("File does not exist.");
+        }
+
+        sobj.close();
+	}
+}
