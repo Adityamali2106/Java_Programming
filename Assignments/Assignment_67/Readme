@@ -1,0 +1,5 @@
+Bit manipulation problems focuses on developing "low-level" logic by treating integers as sequences 
+of binary digits rather than just decimal values. By utilizing bitwise operators—such as AND (&) 
+for masking, OR (|) for setting bits, XOR (^) for toggling, and Right Shift (>>) for traversal—the
+exercises demonstrate how to efficiently inspect, modify, and count specific bits within a UINT
+variable without relying on standard arithmetic like division or modulo.
