@@ -1,0 +1,5 @@
+This program accepts an unsigned integer number and a bit position from the user,
+creates a mask using left shift to represent the given position, checks whether
+the bit at that position is ON or OFF using the bitwise AND operator, and if the bit is
+found to be ON it turns that bit OFF using the XOR operator; if the bit is already OFF,
+the number remains unchanged and the modified number is displayed as output.
