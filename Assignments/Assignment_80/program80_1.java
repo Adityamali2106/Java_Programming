@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 //
-//      Class Name      : program79_2
-//      Description     : it is used to manage cinemahall seating using 2D array.
-//      Input           : Number of rows, number of columns, seet booked or not(0/1).
-//      Output          : Total booked seets,row with maximum bookings, full row exists(yes/no).
+//      Class Name      : program80_1
+//      Description     : it is used to analyze electricity cousumption of multiple cities over a week.
+//      Input           : Number of cites, units per day(7 day in a week) of each city.
+//      Output          : Multiple outputs.
 //      Author          : Aditya Vijay Mali
 //      Date            : 06/03/2026
 //
@@ -116,4 +116,5 @@ class program80_1
 
         sobj.close();
     }
+
 }
